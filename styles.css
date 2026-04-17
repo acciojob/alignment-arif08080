@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+
+
+#t-image {
+    text-align: center;
+}
+
+#t-image img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
