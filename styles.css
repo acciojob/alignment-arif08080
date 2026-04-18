@@ -4,31 +4,25 @@ h1 {
 }
 
 table, th, td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid black;
     border-collapse: collapse;
-    padding: 12px;
+    padding: 1px;
 }
 
 .middle {
-    margin: 20px auto; 
+    margin: 20px auto;
     width: 60%;
 }
 
-
+/* Updated to target specific cells */
 .center {
-    background-color: #eeeeee; 
+    background-color: #eeeeee;
+    text-align: center; 
 }
 
 .right {
-    text-align: right; 
+    text-align: right;
 }
-
-
-#t21 {
-    text-align: center;
-    font-weight: bold;
-}
-
 
 #table-3 tr:first-child {
     background-color: green;
@@ -43,4 +37,5 @@ table, th, td {
 #t-image img {
     display: block;
     margin: 0 auto;
+    width: 100px;
 }
