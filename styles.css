@@ -14,7 +14,6 @@ table, th, td {
     width: 60%;
 }
 
-/* Updated to target specific cells */
 .center {
     background-color: #eeeeee;
     text-align: center; 
